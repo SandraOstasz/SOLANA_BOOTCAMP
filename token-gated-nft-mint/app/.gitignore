@@ -1,0 +1,8 @@
+# React app ignores
+node_modules/
+.env
+build/
+.cache/
+dist/
+*.log
+
