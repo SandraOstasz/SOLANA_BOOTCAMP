@@ -1,0 +1,22 @@
+# === Global project ignores ===
+.DS_Store
+*.log
+*.tsbuildinfo
+
+# === Rust / Anchor ignores ===
+target/
+node_modules/
+.env
+
+# === Anchor build artifacts ===
+**/target/
+**/.anchor/
+**/.idea/
+
+# === Ignore frontend .env ===
+app/.env
+
+# === Ignore frontend deps if someone runs npm install in root ===
+package-lock.json
+yarn.lock
+
