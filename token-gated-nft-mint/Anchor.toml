@@ -1,0 +1,10 @@
+[programs.localnet]
+token_gated_nft_mint = "replace_with_your_program_id"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha"
+

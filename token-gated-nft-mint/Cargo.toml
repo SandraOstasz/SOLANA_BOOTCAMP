@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "programs/token_gated_nft_mint"
+]
+
